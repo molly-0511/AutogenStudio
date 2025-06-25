@@ -7,3 +7,4 @@ autogenstudio==0.4.2
 pillow
 fpdf
 pytest-playwright
+PyMuPDF

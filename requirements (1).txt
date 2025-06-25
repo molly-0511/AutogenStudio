@@ -1,0 +1,9 @@
+streamlit
+openai==1.69.0
+jupyter
+autogen-agentchat
+autogen-ext[openai,magentic_one,mcp]
+autogenstudio==0.4.2
+pillow
+fpdf
+pytest-playwright

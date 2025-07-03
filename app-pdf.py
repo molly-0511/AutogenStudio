@@ -104,7 +104,7 @@ async def main():
     )
 
     # Load PDF text
-    file_path = "lab_test.pdf"  # Change to your uploaded filename
+    file_path = "lab_test_samplecomm.pdf"  # Change to your uploaded filename
     report_text = extract_text_from_pdf(file_path)
 
     # Construct prompt task

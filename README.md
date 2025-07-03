@@ -1,13 +1,16 @@
 # AutogenStudio
 
-This repo leverages AutoGen package developed by Microsoft to create an AI streamlit app. Idea from HIA (Health Analysis Agent): https://discuss.streamlit.io/t/hia-health-analysis-agent/92987
+This repo leverages AutoGen package developed by Microsoft to create an AI streamlit app. Idea from HIA (Health Analysis Agent): https://discuss.streamlit.io/t/hia-health-analysis-agent/92987  
 
-How to run?
-pip install -r requirements.txt
-export OPENAI_API_KEY="..."
-python app-streamlit.py
-control+C - to exit wrong code or to exit steamlit app
+How to run?  Type the following in terminal 
+pip install -r requirements.txt   
+export OPENAI_API_KEY="..."   - export your own OPEN_AI key  
+python app-streamlit.py  - to run python notebook  
+control+C - to exit wrong code or to exit steamlit app    
+autogenstudio ui --port 8081 --appdir=./mydir   - run AutoGen Studio UI
 
-git pull
-git commit -m "Description"
-git push
+
+How to save file in Codespace?  
+git pull  
+git commit -m "Description"  
+git push  
